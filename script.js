@@ -10,7 +10,6 @@ nextButton.addEventListener("click", () => {
     currentQuestionIndex++;
     setNextQuestion();
 });
-submitBtn.addEventListener("click",submit);
 
 let shuffledQuestions, currentQuestionIndex;
 
